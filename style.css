@@ -505,7 +505,7 @@ nav.sticky {
   }
   .about-col-1 img{
    width:270%;
-   margin-left:60%;
+   margin-left:50%;
    height: 400px;
   }
   .about-col-2 h1{
@@ -530,7 +530,7 @@ margin-left: 10px;
    width:110%;
 }
 #portfolio{
-   margin-left: 20px;
+   margin-left: 17px;
 }
 
 #portfolio h1{
@@ -552,6 +552,9 @@ margin-left: 10px;
 .contact-left,.contact-right{
    flex-basis: 100%;
    
+}
+      .contact-right{
+   margin-right: 15px;
 }
 .fa-brands, .fab{
    margin-left: 5px;
