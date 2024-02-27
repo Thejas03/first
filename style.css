@@ -7,7 +7,7 @@
 html{
      scroll-behavior:smooth;}
 body{
-    background:linear-gradient(to top,yellow,red,yellow, orange,yellow);
+    background:linear-gradient(to top,black,gray);
    
 }
 
@@ -87,7 +87,7 @@ body{
  .header-text{
     padding-top: 25%;
     font-size: 40px;
-    color: black;
+    color: white;
     margin-left: 20%;
     position: relative;
 }
@@ -125,7 +125,7 @@ body{
   }
   .about-col-2{
    flex-basis: 60%;
-   color:black;
+   color:white;
    margin-top:20px;
   }
   .about-col-2 .about{
@@ -173,7 +173,7 @@ body{
    margin-left: 10%;
 }
 .tab-contents ul li span{
-   color: red;
+   color: black;
    font-size: 16px;
    font-weight: 600;
 
@@ -187,7 +187,7 @@ body{
 /*------------------- technical skills ---------------*/
 #technical h1{
    padding-top: 25px;
-color: black;
+color: white;
 margin-left: 10%;
 font-size: 60px;
 font-weight: 600;
@@ -247,7 +247,7 @@ div .two{
 /*----------------------portfolio--------------------*/
 #portfolio h1{
    padding-top: 10px;
-   color: black;
+   color: white;
    margin-left: 10%;
    font-size: 60px;
 }
@@ -313,7 +313,7 @@ transform: scale(1.1);
 /*----------------contact---------------------------*/
 #contact {
   
-   color: black;
+   color: white;
    margin-left: 10%;
    margin-right: 10%;
 }
@@ -367,7 +367,7 @@ form input, form textarea{
    width:115%;
    border: 0;
    outline: none;
-   background-color: rgb(240, 183, 79);
+   background-color: ababab;
    padding: 15px;
    margin: 15px 0;
    color: black;
