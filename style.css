@@ -414,7 +414,7 @@ nav .fas{
   /*---------------- Apply the animation to the text -------------------*/
   @keyframes typewriter {
    from { width: 0% }
-   to { width: 40% }
+   to { width: 60% }
  }
   .header-text p {
     overflow: hidden; /* Ensures the text is not visible until animated */
