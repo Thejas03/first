@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/762ad8772f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="image/kannada.jpg" alt="">
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#technical">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+            <p> Software developer</p>
+            <H1>Hi, I'm <span>Thejas</span></H1>
+           </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/20200226172250_IMG_3039.JPG" >
+                </div>
+                <div class="about-col-2">
+                    <h1 calss="sub-title">About Me</h1>
+                    <br>
+                    <p class="about">
+                        Motivated and enthusiastic student seeking an opportunity to utilize my skills and
+                        knowledge. I am committed to delivering high-quality work. I am a quick learner, a
+                        good communicator, and a team player, and I am eager to contribute to the success
+                        of your organization.
+                    
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Programmer</span><br>Good Knowledge of Programming Languages</li>
+                            <li><span>Web Development</span><br>Intermediate level of Web Development</li>                        
+                            <li><span>DBMS</span><br>Intermediate level of Database and Queries</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"> 
+                        <ul>
+                            <li><span>Entry Level</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2023</span><br>P.E.S College Of Engineering, Mandya</li>
+                            <li><span>2018-2021</span><br>Seshadripuram Degree College, Mysore</li>                        
+                            <li><span>2016-2018</span><br>K Puttaswamy PU College, Mysore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ---------------- technical skills----------------- -->
+   <div id="technical">
+    <div class="container">
+        <h1 calss="sub-title">Technical Skills</h1>
+        <div class="skills-list">
+            <div>
+                <img src="image/download.jpg" alt="">
+                <h2>C-Programming</h2>
+                <P>Intermediate level of C-Programming</P>
+            </div>
+            <div>
+                
+                <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i>
+                <h2>HTML/CSS</h2>
+                <P>Good Knowledge of C-Programming</P>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>JAVA </h2>
+                <P>Good Knowledge of Java Programming</P>
+            </div>
+            <div class="two">
+                <i class="fa-brands fa-python"></i>
+                <h2>PYTHON</h2>
+                <P>Intermediate level of Python-Programming</P>
+            </div>
+            <div class="two">
+                <i class="fa-solid fa-database"></i>
+                <h2>DBMS: SQL </h2>
+                <P>Good Knowledge of DBMS and SQL</P>
+            </div>
+        </div>
+
+    </div>
+   </div>
+   <!-- -------------------------portfolio------------ -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="work">
+                <img src="image/project1.png" > 
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <p>The proposed web application is to detect botnet files in network trafic accurately,the
+                        system should be able to identify different types of botnet files including malware,
+                        comman-and control(c&c) traffic, and other malicicious files</p>
+                </div>                    
+            </div>
+            <div class="work">
+                <img src="image/project3.png" > 
+                <div class="layer">
+                    <h3> IOT Model</h3>
+                    <p>This model will give the alarm when there is rain, so that we can
+                        make some actions for rain water harvesting and also save the rain water for using it
+                        later.</p>
+                </div>           
+            </div>
+            <div class="work">
+                <img src="image/project2.jpeg" >  
+                <div class="layer">
+                    <h3> Android App</h3>
+                    <p>Developed an android application which helps to hotels and resturents to donate
+                        remaining food, the donated food can be utilized by different charity organisations
+                        like Orphanages, old age homes etc.</p>
+                </div>         
+            </div>
+        </div>
+    </div>
+   </div>
+<!--------------------contact---------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>thejasktheju7@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9164120098</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              
+                    <a href="image/Thejas resume (1).pdf" download class="btn btn2">Download CV</a>
+              
+              
+
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Nmae" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  placeholder="Your Message" rows="10"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+  <div class="copywrite">
+    <p><i class="fa-solid fa-copyright"></i>  2024 Portfolio Website All ights reserved</p>
+  </div>
+</div>
+
+
+
+   <!---------------- scripting------------------>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          
+        }
+        window.addEventListener("scroll",function(){
+            var nav= document.querySelector("nav")
+            nav.classList.toggle("sticky",window.scrollY > 0);
+        })
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+       
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
