@@ -4,9 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+html{
+     scroll-behavior:smooth;
 body{
     background:linear-gradient(to top,yellow,red,yellow, orange,yellow);
-    scroll-behavior:smooth:
+   
 }
 
  nav img{
@@ -511,14 +513,14 @@ font-size: 40px;
 margin-top: 20px;
   }
 .about-col-2{
-   margin-left: 30px
+   margin-left: 20px
 }
 .tab-title{
    padding-top: 20px;
 
 }
 #technical{
-margin-left: 30px;
+margin-left: 10px;
 
   }
 #technical h1{
@@ -528,7 +530,7 @@ margin-left: 30px;
    width:110%;
 }
 #portfolio{
-   margin-left: 30px;
+   margin-left: 20px;
 }
 
 #portfolio h1{
