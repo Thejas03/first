@@ -6,6 +6,7 @@
 }
 body{
     background:linear-gradient(to top,yellow,red,yellow, orange,yellow);
+    scroll-behaviour:smooth:
 }
 
  nav img{
